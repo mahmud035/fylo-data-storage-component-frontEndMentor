@@ -10,8 +10,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Add solution URL here](https://github.com/mahmud035/fylo-data-storage-component-frontEndMentor)
+- Live Site URL: [Add live site URL here](https://mahmud035.github.io/fylo-data-storage-component-frontEndMentor/)
 
 ### Built with
 
@@ -20,6 +20,7 @@ Users should be able to:
 - Flexbox
 - CSS Grid
 - CSS Position
+- CSS chat bubbles
 
 ### What I learned
 
