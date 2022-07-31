@@ -60,6 +60,14 @@ select {
 
 body {
   font-family: 'Raleway', sans-serif;
+  height: 100vh;
+  background: url(../images/bg-desktop.png) no-repeat;
+  background-position: bottom;
+  background-size: cover;
+  /* background-color: var(--very-dark-blue); */
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /* Common CSS Classes */
@@ -67,4 +75,45 @@ body {
   max-width: 1440px;
   width: 80%;
   margin-inline: auto;
+}
+
+/* Data Storage Component */
+.card-container {
+  display: flex;
+  gap: 2rem;
+}
+
+.icon-card,
+.storage-card {
+  background-color: var(--dark-blue);
+}
+
+/* icon-card */
+.icon-card {
+  padding: 2.5rem;
+  padding-right: 7rem;
+  border-radius: 10px;
+  border-top-right-radius: 100px;
+}
+
+.icon-card .brand-name .logo {
+  max-width: 120px;
+}
+
+.icon-card .icons {
+  display: flex;
+  gap: 1rem;
+  padding-top: 2rem;
+}
+
+.icon-card .icons div {
+  padding: 0.6rem;
+  background-color: var(--very-dark-blue);
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.icon-card .icons div:nth-child(1) {
+  padding: 0.6rem 0.7rem;
 }
