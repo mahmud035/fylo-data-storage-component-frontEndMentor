@@ -211,27 +211,56 @@ body {
   margin-bottom: 10px;
 }
 
+/** Storage Left */
 .storage-left {
-  background-color: #fff;
-  border-radius: 10px;
-  width: 45%;
-  margin-inline: auto;
-  padding: 0.8rem;
+  display: none;
+}
+
+/** Storage Remain */
+
+/* CSS talk bubble */
+.storage-remain {
+  position: absolute;
+  top: -6rem;
+  right: 0;
+}
+
+.talk-bubble {
+  margin: 40px;
+  display: inline-block;
+  position: relative;
+  max-width: 200px;
+  height: auto;
+  background-color: white;
+  border-radius: 10px 10px 0 10px;
+}
+
+.tri-right.btm-right:after {
+  content: ' ';
+  position: absolute;
+  width: 0;
+  height: 0;
+  left: auto;
+  right: 0px;
+  bottom: -20px;
+  border: 12px solid;
+  border-color: white white transparent transparent;
+}
+
+/* talk bubble contents */
+.talktext {
+  padding: 1rem 1.5rem;
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 0.7rem;
-  position: absolute;
-  left: 50%;
-  bottom: -18%;
-  transform: translateX(-50%);
 }
 
-.storage-left h1 {
-  font-size: 2rem;
+.storage-remain h1 {
+  font-size: 2.5rem;
 }
 
-.storage-left p {
+.storage-remain p {
   font-size: 14px;
   font-weight: bold;
 }

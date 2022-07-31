@@ -9,4 +9,36 @@
     font-size: 14px;
     text-align: center;
   }
+
+  /* Storage Left */
+  .storage-left {
+    display: block;
+    background-color: #fff;
+    border-radius: 10px;
+    width: 45%;
+    margin-inline: auto;
+    padding: 0.8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.7rem;
+    position: absolute;
+    left: 50%;
+    bottom: -18%;
+    transform: translateX(-50%);
+  }
+
+  .storage-left h1 {
+    font-size: 2rem;
+  }
+
+  .storage-left p {
+    font-size: 13.6px;
+    font-weight: bold;
+  }
+
+  /* Storage Remain */
+  .storage-remain {
+    display: none;
+  }
 }
