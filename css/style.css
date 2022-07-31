@@ -96,13 +96,10 @@ body {
 
 /* icon-card */
 .icon-card {
+  min-width: 300px;
   padding: 2.5rem;
   padding-right: 7rem;
   border-top-right-radius: 100px;
-}
-
-.icon-card .brand-name .logo {
-  max-width: 120px;
 }
 
 .icon-card .icons {
@@ -123,11 +120,16 @@ body {
   padding: 0.6rem 0.7rem;
 }
 
+.icon-card .icons div img {
+  min-width: 100%;
+}
+
 /* storage-card */
 .storage-card {
   padding: 2.5rem;
-  max-height: 145px;
+  max-height: 155px;
   align-self: end;
+  position: relative;
 }
 
 .storage-card p {
@@ -187,4 +189,30 @@ body {
   justify-content: space-between;
   color: var(--pale-blue);
   font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.storage-left {
+  background-color: #fff;
+  border-radius: 10px;
+  width: 45%;
+  margin-inline: auto;
+  padding: 0.8rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.7rem;
+  position: absolute;
+  left: 50%;
+  bottom: -18%;
+  transform: translateX(-50%);
+}
+
+.storage-left h1 {
+  font-size: 2rem;
+}
+
+.storage-left p {
+  font-size: 14px;
+  font-weight: bold;
 }
