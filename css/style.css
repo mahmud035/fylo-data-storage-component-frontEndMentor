@@ -126,6 +126,8 @@ body {
 /* storage-card */
 .storage-card {
   padding: 2.5rem;
+  max-height: 145px;
+  align-self: end;
 }
 
 .storage-card p {
@@ -163,11 +165,17 @@ body {
   );
 }
 
-.total-storage .used-storage .white-circle {
+.total-storage .used-storage .white-circle-container {
+  position: relative;
+  width: 100%;
+  height: 0.85rem;
+}
+
+.total-storage .used-storage .white-circle-container .white-circle {
   position: absolute;
-  left: 96%;
+  left: 99%;
   top: 50%;
-  transform: translateY(-50%);
+  transform: translate(-99%, -50%);
   width: 10px;
   height: 10px;
   border-radius: 50%;

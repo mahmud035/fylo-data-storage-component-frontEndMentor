@@ -1,0 +1,12 @@
+@media (max-width: 576px) {
+  .card-container {
+    width: 90%;
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+
+  .storage-card p {
+    font-size: 14px;
+    text-align: center;
+  }
+}
