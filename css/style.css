@@ -64,6 +64,7 @@ body {
   background: url(../images/bg-desktop.png) no-repeat;
   background-position: bottom;
   background-size: cover;
+  overflow-x: hidden;
   /* background-color: var(--very-dark-blue); */
   /* display: flex;
   justify-content: center;
@@ -127,6 +128,7 @@ body {
 /* storage-card */
 .storage-card {
   padding: 2.5rem;
+  min-width: 310px;
   max-height: 155px;
   align-self: end;
   position: relative;

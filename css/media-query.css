@@ -1,6 +1,6 @@
 @media (max-width: 576px) {
   .card-container {
-    width: 90%;
+    min-width: 80%;
     grid-template-columns: 1fr;
     gap: 1.5rem;
   }
